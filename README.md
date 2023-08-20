@@ -1,3 +1,3 @@
 ### Description ongoing...
 
-![Email Finder](./Flask_email_finder/blob/main/static/img/presentation.png)
+![Email Finder](.static/img/presentation.png)
