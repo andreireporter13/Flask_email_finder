@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+
+{% block body %}
+  <!--End Block Body-->
+  <div class="banner">
+    <img src="static/img/banner.png" alt="Banner Image">
+</div>
+
+<br>
+
+<!-- if emails adresses are valid -->
+<div class="container">
+<h1>Email Addresses</h1>
+    <textarea rows="10" cols="50">
+        {% for email in emails %}
+        {{ email }}
+        {% endfor %}
+    </textarea>
+</div>
+{% endblock %}
