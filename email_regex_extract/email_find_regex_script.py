@@ -16,7 +16,7 @@ class FindEmailRegex:
 
     def extract_email(self):
         '''
-        This method return all emails from html code.
+        This method return most valid (and some invalid) emails  from html code.
         '''
 
         # extract emails with regex
